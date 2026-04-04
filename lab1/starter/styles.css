@@ -1,0 +1,34 @@
+/*
+    STEP 2 — Build HTML & CSS (Code mode)
+    ======================================
+    Your task: style the calculator with a dark theme and CSS Grid.
+
+    Use CODE MODE in Bob — it will generate this file for you.
+    Enable auto-approvals so Bob creates both files without stopping.
+
+    Requirements:
+    ┌─ body
+    │   └─ centered with a purple gradient background
+    ├─ .calculator
+    │   ├─ width: 360px
+    │   ├─ background: #1e1e1e
+    │   └─ border-radius: 20px
+    ├─ .display
+    │   ├─ background: #2d2d2d
+    │   ├─ text-align: right
+    │   ├─ min-height: 120px
+    │   ├─ .previous-operand  → font-size: 18px, color: #888
+    │   └─ .current-operand   → font-size: 42px, font-weight: 300
+    └─ .buttons
+        ├─ display: grid
+        ├─ grid-template-columns: repeat(4, 1fr)
+        ├─ gap: 1px
+        ├─ background: #111   ← this + gap creates divider lines
+        ├─ .btn-number    → background: #3a3a3a
+        ├─ .btn-operator  → background: #ff9500  (orange)
+        ├─ .btn-function  → background: #505050  (gray)
+        ├─ .btn-equals    → background: #ff9500, grid-column: span 2
+        └─ .btn-zero      → grid-column: span 2, text left-aligned
+*/
+
+/* Your styles go here */
